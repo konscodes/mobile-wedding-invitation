@@ -11,9 +11,9 @@ const Invitation = () => {
       <Caption textAlign={'center'}>{greeting.eventDetail}</Caption>
       <RoundButton
         target="_blank"
-        href=""
+        href="src/assets/invitation.ics"
         rel="noreferrer">
-        Add to Google Calendar
+        Add to Calendar
       </RoundButton>
     </InvitationWrapper>
   );
