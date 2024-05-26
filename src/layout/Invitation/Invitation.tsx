@@ -11,7 +11,7 @@ const Invitation = () => {
       <Caption textAlign={'center'}>{greeting.eventDetail}</Caption>
       <RoundButton
         target="_blank"
-        href="https://github.com/konscodes/mobile-wedding-invitation/blob/main/src/assets/invitation.ics"
+        href="https://raw.githubusercontent.com/konscodes/mobile-wedding-invitation/main/src/assets/invitation.ics"
         rel="noreferrer">
         Add to Calendar
       </RoundButton>
