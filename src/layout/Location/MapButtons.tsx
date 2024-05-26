@@ -3,12 +3,12 @@ import data from 'data.json';
 import Button from '@/components/Button.tsx';
 
 const MapButtons = () => {
-  const { naverMap, kakaoMap } = data.mapInfo;
+  const { naverMap, googleMap } = data.mapInfo;
 
   return (
     <MapButtonWrapper>
-      <Button onClick={() => window.open(naverMap)}>네이버 지도</Button>
-      <Button onClick={() => window.open(kakaoMap)}>카카오맵</Button>
+      <Button onClick={() => window.open(naverMap)}>Naver Map</Button>
+      <Button onClick={() => window.open(googleMap)}>Google Map</Button>
     </MapButtonWrapper>
   );
 };
