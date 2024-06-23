@@ -6,7 +6,7 @@ import image05 from '@/assets/images/5.jpeg';
 import image06 from '@/assets/images/6.jpeg';
 import image07 from '@/assets/images/7.jpeg';
 import image08 from '@/assets/images/8.jpeg';
-import image09 from '@/assets/images/9.jpeg';
+// import image09 from '@/assets/images/9.jpeg';
 import image10 from '@/assets/images/10.jpeg';
 import image11 from '@/assets/images/11.jpeg';
 import image12 from '@/assets/images/12.jpeg';
