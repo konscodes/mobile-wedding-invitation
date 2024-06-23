@@ -1,12 +1,11 @@
 {
   "greeting": {
-    "title": "Siyun 💍 Konstantin\nGetting Married!",
+    "title": "Siyun\n & \nKonstantin",
     "message": "Love has come to fruition\nKorea and Russia\nA man and a woman born in faraway countries meet\nWe became one and bore the fruit of true love\nIt would be a great pleasure\nif you come to share this moment with us!",
-    
-    "eventDetail": "Sat, November 9th 2024 at 5PM\nSeonungak"
+    "eventDetail": "Sat, November 9th 2024 at 5PM\nSunwoongak"
   },
   "mapInfo": {
-    "address1": "Cafe Sunwoongak",
+    "address1": "Sunwoongak",
     "address2": "223 Samyang-ro 173-gil, Gangbuk-gu, Seoul",
     "naverMap": "https://naver.me/5DjFkm0c",
     "googleMap": "https://maps.app.goo.gl/UZRAng7fonDagnyK7",
@@ -16,19 +15,19 @@
   "locationInfo": [
     {
       "title": "📍 Car",
-      "desc": "👉🏻 When using your own car, enter ‘Seonungak’ into your navigation.\nParking is available free of charge.\nPlease park according to the instructions of the parking attendant in front of the entrance."
+      "desc": "When using your own car, enter ‘Sunwoongak’ into your navigation.\nParking is available free of charge.\nPlease park according to the instructions of the parking attendant in front of the entrance."
     },
     {
       "title": "📍 Subway",
-      "desc": "👉🏻 Please get off at Exit 2 of Bukhansan Ui Station and use the shuttle bus.\nShuttle buses run every 10 minutes from 4PM to 10PM."
+      "desc": "Please get off at Exit 2 of Bukhansan Ui Station and use the shuttle bus.\nShuttle buses run every 10 minutes from 4PM to 10PM."
     },
     {
       "title": "📍 Bus",
-      "desc": "👉🏻 Please get off at the last stop of Ui-dong Garage and use the shuttle bus.\nShuttle buses run every 10 minutes from 4PM to 10PM."
+      "desc": "Please get off at the last stop of Ui-dong Garage and use the shuttle bus.\nShuttle buses run every 10 minutes from 4PM to 10PM."
     }
   ],
   "information": {
-    "message": "ℹ️ The meal will begin after the main ceremony in Part 1.\nThere will be a DJ party until 10pm for Part 2.\nGuests are free to leave after the meal in case they have any commitments.\n\nℹ️ There is no bridal waiting room.\nThe bride and groom will be welcoming guests as they arrive.\n\nℹ️ Hanok Seonyungak is famous for its beautiful fall foliage.\nYou are welcome to arrive early to enjoy the scenery.\n\nℹ️ Please let us know in advance if you will be attending so that we can set up seating arrangements.\n\nℹ️ We respectfully ask guests to refrain from bringing flowers to help protect the environment.\n\n\n"
+    "message": "ℹ️ The meal will begin after the main ceremony in Part 1.\nThere will be a DJ party until 10pm for Part 2.\nGuests are free to leave after the meal in case they have any commitments.\n\nℹ️ Hanok Seonyungak is famous for its beautiful fall foliage.\nYou are welcome to arrive early to enjoy the scenery.\n\nℹ️ Please let us know in advance if you will be attending so that we can set up seating arrangements.\n\n\n"
   },
   "emojis": [
     "❤️",

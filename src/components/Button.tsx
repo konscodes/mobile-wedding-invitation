@@ -1,10 +1,9 @@
 import styled from '@emotion/styled';
 
 const Button = styled.button`
-  //font-family: HSSanTokki20-Regular, serif;
+  font-family: "Josefin Sans", Arial, sans-serif;
   padding: 0.5em 0.8em;
-  border-radius: 8px;
-  border: 1px solid #dfdfdf;
+  border: 1px solid #DF405C;
   outline: none;
   box-shadow: none;
   font-size: 0.9rem;
@@ -15,6 +14,7 @@ const Button = styled.button`
   color: #1a1a1a;
   text-decoration: none;
   gap: 2px;
+  color: #DF4043;
 `.withComponent('a');
 
 export default Button;

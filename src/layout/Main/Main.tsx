@@ -6,7 +6,7 @@ const Main = () => {
   const { greeting } = data;
   return (
     <div>
-      <MainImg src={mainImg} />
+      {/* <MainImg src={mainImg} /> remove background image*/}
       <MainTitle>{greeting.title}</MainTitle>
     </div>
   );
@@ -21,10 +21,13 @@ const MainImg = styled.img`
   padding-top: 20px;
 `;
 
-const MainTitle = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
-  font-size: 2rem;
+const MainTitle = styled.h1`
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: OilCan, sans-serif;
+  font-size: 2.75rem;
   color: #2F2120;
-  line-height: 120%;
+  line-height: 1;
+  text-transform: uppercase;
   white-space: pre-line;
 `;

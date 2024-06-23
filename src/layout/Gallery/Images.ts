@@ -52,10 +52,6 @@ const images = [
     source: image08,
   },
   {
-    alt: 'image09',
-    source: image09,
-  },
-  {
     alt: 'image10',
     source: image10,
   },

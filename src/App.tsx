@@ -38,17 +38,17 @@ function App() {
         <Wrapper>
           <Main />
         </Wrapper>
-        <Wrapper>
+        <Wrapper ref={galleryRef}>
           <Heading1>Invitation</Heading1>
           <Invitation />
-        </Wrapper>
-        <Wrapper ref={galleryRef}>
-          <Heading1>Gallery</Heading1>
-          <GalleryWrap />
         </Wrapper>
         <Wrapper>
           <Heading1>Location</Heading1>
           <Location />
+        </Wrapper>
+        <Wrapper>
+          <Heading1>Gallery</Heading1>
+          <GalleryWrap />
         </Wrapper>
         <Wrapper>
           <Heading1>Information</Heading1>

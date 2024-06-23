@@ -1,5 +1,5 @@
 body {
-  font-family: SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Josefin Sans", Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -31,4 +31,12 @@ body {
   src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'OilCan';
+  src: url(https://assets.rileygrey.com/assets/OilCan-70556b0de714f1e0c0b83b57f93a7c02d37a4e31a235a6bcaaa91f38dfdeff1e.eot);
+  src: url(https://assets.rileygrey.com/assets/OilCan-70556b0de714f1e0c0b83b57f93a7c02d37a4e31a235a6bcaaa91f38dfdeff1e.eot?#iefix) format("embedded-opentype"),url(https://assets.rileygrey.com/assets/OilCan-102593d11c236d43fc955ef0f341092c9235127a677fb51875087727aae67eeb.woff2) format("woff2"),url(https://assets.rileygrey.com/assets/OilCan-7ddf82be7ac4719c7537ebd346d37b375e5b3309efee8cc3a2f3d28c17576326.woff) format("woff"),url(https://assets.rileygrey.com/assets/OilCan-a7f95306c1c4b31f8841e58e71069b9f88701f803cbe122e2dd4ae0e0deb0d5f.ttf) format("truetype"),url(https://assets.rileygrey.com/assets/OilCan-8fbaaaff874d45658c1f1fce9c5b98b3790b93fe0a25d5dfb0c583e2d1165c70.svg) format("svg");
+  font-weight: normal;
+  font-style: normal
 }

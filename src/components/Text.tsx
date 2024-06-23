@@ -1,10 +1,9 @@
 import styled from '@emotion/styled';
 
 export const Heading1 = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
+  font-family: OilCan, sans-serif;
   font-size: 1.5rem;
   margin: 10px;
-  color: #e88ca6;
   white-space: pre-line;
 `;
 
@@ -15,20 +14,19 @@ export const Heading2 = styled.p`
 `;
 
 export const PointTitle = styled.p`
-  font-family: HSSanTokki20-Regular, serif;
+  font-family: OilCan, sans-serif;
   line-height: 1;
   margin: 0;
-  color: #e88ca6;
   white-space: pre-line;
 `;
 
 export const Paragraph = styled.p`
-  line-height: 2.2rem;
-  white-space: pre-line;
+  font-size: 1rem;
+  line-height: 1.375rem;
 `;
 
 export const Caption = styled.p<{ textAlign?: string }>`
-  font-weight: 200;
+  font-weight: 400;
   text-align: ${(props) => (props.textAlign ? props.textAlign : 'start')};
   white-space: pre-line;
 `;

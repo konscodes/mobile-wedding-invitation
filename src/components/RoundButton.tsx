@@ -2,14 +2,15 @@ import styled from '@emotion/styled';
 
 const RoundButton = styled.button`
   padding: 0.5em 1em;
-  border-radius: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #DF405C;
   outline: none;
   box-shadow: none;
   font-size: 0.9rem;
   cursor: pointer;
-  color: #44484d;
+  color: #DF4043;
   text-decoration: none;
-  background-color: #e6ece1;
+  background-color: #fff;
 `.withComponent('a');
 
 export default RoundButton;
