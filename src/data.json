@@ -14,20 +14,19 @@
   },
   "locationInfo": [
     {
-      "title": "📍 Car",
-      "desc": "When using your own car, enter ‘Sunwoongak’ into your navigation.\nParking is available free of charge.\nPlease park according to the instructions of the parking attendant in front of the entrance."
-    },
-    {
       "title": "📍 Subway",
       "desc": "Please get off at Exit 2 of Bukhansan Ui Station and use the shuttle bus.\nShuttle buses run every 10 minutes from 4PM to 10PM."
-    },
-    {
-      "title": "📍 Bus",
-      "desc": "Please get off at the last stop of Ui-dong Garage and use the shuttle bus.\nShuttle buses run every 10 minutes from 4PM to 10PM."
     }
   ],
   "information": {
-    "message": "ℹ️ The meal will begin after the main ceremony in Part 1.\nThere will be a DJ party until 10pm for Part 2.\nGuests are free to leave after the meal in case they have any commitments.\n\nℹ️ Hanok Seonyungak is famous for its beautiful fall foliage.\nYou are welcome to arrive early to enjoy the scenery.\n\nℹ️ Please let us know in advance if you will be attending so that we can set up seating arrangements.\n\n\n"
+    "title1": "WELCOME DRINK + REHEARSAL\n4:00-5:00pm",
+    "message1": "Sunwoongak is famous for its beautiful fall foliage. You are welcome to arrive early to enjoy the scenery with welcome drink.",
+    "title2": "WEDDING CEREMONY\n5:00-6:00pm",
+    "message2": "Please join us to celebrate our new life together.",
+    "title3": "RECEPTION DINNER\n6:00-7:30pm",
+    "message3": "Western and Korean buffet style meal and variety drinks will be provided.",
+    "title4": "DANCE PARTY!\n7:30-10:00pm",
+    "message4": "DJ dance party will starts after dinner until 10pm. Guests are free to leave after the meal in case they have any commitments."
   },
   "emojis": [
     "❤️",

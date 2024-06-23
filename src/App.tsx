@@ -51,7 +51,7 @@ function App() {
           <GalleryWrap />
         </Wrapper>
         <Wrapper>
-          <Heading1>Information</Heading1>
+          <Heading1>Schedule</Heading1>
           <Information />
         </Wrapper>
         <FloatingBar isVisible={isVisible} />

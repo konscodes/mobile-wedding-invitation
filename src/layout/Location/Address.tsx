@@ -33,5 +33,4 @@ const WayWrapper = styled.div`
 const Way = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: left;
 `;

@@ -14,10 +14,13 @@ export const Heading2 = styled.p`
 `;
 
 export const PointTitle = styled.p`
-  font-family: OilCan, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   line-height: 1;
   margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.375rem;
   white-space: pre-line;
+  padding-top: 10px;
 `;
 
 export const Paragraph = styled.p`

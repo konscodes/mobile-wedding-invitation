@@ -62,6 +62,6 @@ const PlusButton = styled.div`
   border: 1px solid #DF405C;
   cursor: pointer;
   color: #DF4043;
-  margin: 10px;
+  margin: 16px;
   background: white;
 `;

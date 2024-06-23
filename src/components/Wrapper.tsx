@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 const Wrapper = styled.section`
-  padding-bottom: 0px;
+  padding-bottom: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
