@@ -5,7 +5,7 @@ import PhotoGallery from './PhotoGallery.tsx';
 const GalleryWrap = () => {
   const [isMoreView, setIsMoreView] = useState(false);
 
-  const onClickImageMoreViewButton = () => {
+  const toggleView = () => {
     setIsMoreView(!isMoreView);
   };
 
@@ -15,8 +15,10 @@ const GalleryWrap = () => {
         {!isMoreView && <WhiteGradientOverlay />}
         <PhotoGallery />
       </ImageMoreWrap>
-      {!isMoreView && (
-        <PlusButton onClick={onClickImageMoreViewButton}>See more!</PlusButton>
+      {!isMoreView ? (
+        <PlusButton onClick={toggleView}>See more!</PlusButton>
+      ) : (
+        <PlusButton onClick={toggleView}>See less</PlusButton>
       )}
     </ContentsWrap>
   );
@@ -25,6 +27,7 @@ const GalleryWrap = () => {
 export default GalleryWrap;
 
 const ContentsWrap = styled.div`
+  width: 90%;
   margin-bottom: 36px;
   box-sizing: border-box;
   overflow: hidden;
