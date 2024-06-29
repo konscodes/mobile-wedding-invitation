@@ -9,6 +9,8 @@ import Location from '@/layout/Location/Location.tsx';
 import Information from '@/layout/Information/Information.tsx';
 import Main from '@/layout/Main/Main.tsx';
 import VideoBackground from './components/VideoBackground.tsx';
+import AudioButton from './components/AudioButton.tsx';
+
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -37,6 +39,7 @@ function App() {
   return (
       <Container>
         <VideoBackground />
+        <AudioButton />
         <Wrapper>
           <Main />
         </Wrapper>
