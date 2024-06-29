@@ -22,12 +22,15 @@ export default Main;
 // `;
 
 const MainTitle = styled.h1`
-  padding-top: 70px;
-  padding-bottom: 70px;
+  /* padding-top: 70px;*/
+  /* padding-bottom: 70px;*/
   font-family: OilCan, sans-serif;
   font-size: 2.75rem;
   color: #2F2120;
   line-height: 1;
   text-transform: uppercase;
   white-space: pre-line;
+  height: 100vh;
+  display: grid;
+  place-items: center;
 `;

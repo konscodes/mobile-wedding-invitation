@@ -8,6 +8,7 @@ import Invitation from '@/layout/Invitation/Invitation.tsx';
 import Location from '@/layout/Location/Location.tsx';
 import Information from '@/layout/Information/Information.tsx';
 import Main from '@/layout/Main/Main.tsx';
+import VideoBackground from './components/VideoBackground.tsx';
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -35,6 +36,7 @@ function App() {
 
   return (
       <Container>
+        <VideoBackground />
         <Wrapper>
           <Main />
         </Wrapper>
@@ -47,12 +49,12 @@ function App() {
           <Location />
         </Wrapper>
         <Wrapper>
-          <Heading1>Gallery</Heading1>
-          <GalleryWrap />
-        </Wrapper>
-        <Wrapper>
           <Heading1>Schedule</Heading1>
           <Information />
+        </Wrapper>
+        <Wrapper>
+          <Heading1>Gallery</Heading1>
+          <GalleryWrap />
         </Wrapper>
         <FloatingBar isVisible={isVisible} />
       </Container>

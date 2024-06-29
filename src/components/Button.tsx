@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 const Button = styled.button`
   font-family: "Josefin Sans", Arial, sans-serif;
-  padding: 0.5em 0.8em;
+  padding: 0.5em 1em;
   border: 1px solid #DF405C;
   outline: none;
   box-shadow: none;
