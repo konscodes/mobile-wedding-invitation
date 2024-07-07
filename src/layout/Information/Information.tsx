@@ -74,6 +74,7 @@ const SeparatorLine = styled.div`
 `;
 
 const MoreButton = styled.button`
+  font-family: "Josefin Sans", Arial, sans-serif;
   box-sizing: border-box;
   padding: 0.5em 1em;
   font-size: 1rem;
