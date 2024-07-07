@@ -2,7 +2,7 @@
   "greeting": {
     "title": "Siyun\n & \nKonstantin",
     "message": "The love of a man and a woman, born thousands of miles apart, has united Korea and Russia.\nTogether, we have found the meaning of true love and we are delighted to invite you to share in this joyous occasion. Your presence would mean the world to us.",
-    "eventDetail": "Sat, November 9th 2024 at 5PM\nSunwoongak"
+    "eventDetail": "Saturday, November 9th 2024 at 5PM\nSunwoongak"
   },
   "mapInfo": {
     "address1": "Sunwoongak",
@@ -14,8 +14,8 @@
   },
   "locationInfo": [
     {
-      "title": "How to get there",
-      "desc": "Please get off at Exit 2 of Bukhansan Ui Station and use the shuttle bus.\nShuttle buses run every 10 minutes from 4PM to 10PM."
+      "title": "Access",
+      "desc": "Exit 2 of Bukhansan-Ui Station and take the shuttle bus.\nThe shuttle bus runs every 10 minutes from 4PM to 10PM."
     }
   ],
   "information": {
