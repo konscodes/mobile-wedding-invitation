@@ -52,7 +52,7 @@ function App() {
           <Location />
         </Wrapper>
         <Wrapper>
-          <Heading1>Schedule</Heading1>
+          <Heading1>The day</Heading1>
           <Information />
         </Wrapper>
         <Wrapper>
