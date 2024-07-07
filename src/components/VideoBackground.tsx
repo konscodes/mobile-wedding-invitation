@@ -10,9 +10,6 @@ const VideoBackground: React.FC = () => {
           Your browser does not support the video tag.
         </video>
       </div>
-      <div className="video-overlay">
-        <img src="/overlay.png" alt="Overlay" />
-      </div>
     </div>
   );
 };
