@@ -75,7 +75,7 @@ const ContentWrapper = styled.div`
 const TitleAndButtonWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: self-start;
 `;
 
 const SeparatorLine = styled.div`
