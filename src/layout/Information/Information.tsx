@@ -113,7 +113,7 @@ const InfoTitle = styled.p`
   line-height: 1.375rem;
   white-space: pre-line;
   padding-top: 10px;
-  text-align: justify;
+  text-align: left;
 `;
 
 const InfoSub = styled.p`
@@ -122,5 +122,5 @@ const InfoSub = styled.p`
   margin: 0;
   font-size: 1rem;
   color: #555;
-  text-align: justify;
+  text-align: left;
 `;
