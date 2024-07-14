@@ -12,9 +12,9 @@ const Location = () => {
       <PointTitle>{mapInfo.address1}</PointTitle>
       <Caption textAlign={'center'}>{mapInfo.address2}</Caption>
       {/* <Map /> */}
-      <MapImage src={`/map.webp`} alt="Map" />
+      <MapImage src={`/map.jpeg`} alt="Map" />
       <MapButtons />
-      <Address />
+      {/* <Address /> */}
     </LocationWrapper>
   );
 };

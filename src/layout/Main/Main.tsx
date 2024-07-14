@@ -41,5 +41,5 @@ const MainTitle = styled.h1<{ isVisible: boolean }>`
   white-space: pre-line;
   text-align: center; /* Center text horizontally */
   opacity: ${({ isVisible }) => (isVisible ? '1' : '0')}; /* Initial opacity */
-  transition: opacity 1s ease; /* Smooth transition for opacity change */
+  transition: opacity 3s ease; /* Smooth transition for opacity change */
 `;
