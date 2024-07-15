@@ -30,18 +30,12 @@ const Invitation: React.FC = () => {
   };
 
   const googleCalendarLink = (event: EventDetails) => {
-    const startDate = new Date(Date.UTC(event.start[0], event.start[1] - 1, event.start[2], event.start[3], event.start[4]))
-      .toISOString()
-      .replace(/-|:|\.\d\d\d/g, "");
-    const endDate = new Date(Date.UTC(event.start[0], event.start[1] - 1, event.start[2], event.start[3] + event.duration.hours, event.start[4] + event.duration.minutes))
-      .toISOString()
-      .replace(/-|:|\.\d\d\d/g, "");
-
-    return `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
-      event.title
-    )}&ctz=Asia/Seoul&dates=${startDate}/${endDate}&details=${encodeURIComponent(
-      event.description
-    )}&location=${encodeURIComponent(event.location)}&sf=true&output=xml`;
+    const start = `${event.start[0]}${(event.start[1] < 10 ? '0' : '') + event.start[1]}${(event.start[2] < 10 ? '0' : '') + event.start[2]}T${(event.start[3] < 10 ? '0' : '') + event.start[3]}${(event.start[4] < 10 ? '0' : '') + event.start[4]}00`;
+    
+    const endDate = new Date(event.start[0], event.start[1] - 1, event.start[2], event.start[3] + event.duration.hours, event.start[4] + event.duration.minutes);
+    const end = `${endDate.getFullYear()}${(endDate.getMonth() + 1 < 10 ? '0' : '') + (endDate.getMonth() + 1)}${(endDate.getDate() < 10 ? '0' : '') + endDate.getDate()}T${(endDate.getHours() < 10 ? '0' : '') + endDate.getHours()}${(endDate.getMinutes() < 10 ? '0' : '') + endDate.getMinutes()}00`;
+  
+    return `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.title)}&dates=${start}/${end}&details=${encodeURIComponent(event.description)}&location=${encodeURIComponent(event.location)}&sf=true&ctz=Asia/Seoul`;
   };
 
   const handleAddToCalendar = () => {
