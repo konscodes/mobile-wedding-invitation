@@ -39,7 +39,7 @@ const Invitation: React.FC = () => {
 
     return `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
       event.title
-    )}&dates=${startDate}/${endDate}&details=${encodeURIComponent(
+    )}&ctz=Asia/Seoul&dates=${startDate}/${endDate}&details=${encodeURIComponent(
       event.description
     )}&location=${encodeURIComponent(event.location)}&sf=true&output=xml`;
   };
