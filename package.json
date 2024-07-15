@@ -16,6 +16,7 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-react": "^7.33.2",
+    "ics": "^3.7.6",
     "js-confetti": "^0.11.0",
     "photoswipe": "^5.4.2",
     "react": "^18.2.0",
